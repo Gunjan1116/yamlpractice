@@ -2,7 +2,7 @@
 name:Github action ofr
 on:
   push:
-    branches:[main]
+    branches: [main]
 jobs:
   build:
     run-on: ubuntu-latest
