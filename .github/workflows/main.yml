@@ -1,12 +1,8 @@
-name: Github action ofr
-on:
-  push:
-    branches:
-      - main
+name: Hello World
+on: [push]
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: print node version
-        run: node --version
+      - name: Say Hello
+        run: echo "Hello, World!"
